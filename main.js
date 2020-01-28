@@ -57,7 +57,7 @@ function displayRepo(repo) {
 		repolanguage.classList.add("repo_language");
 		repoName.innerHTML = repo[i].name;
 		repoDescription.innerHTML = repo[i].description;
-		repolanguage.innerHTML = `🔬${repo[i].language}`;
+		repolanguage.innerHTML = `🛠${repo[i].language}`;
 		// div.appendChild(repoName, repoDescription, repolanguage);
 		li.append(repoName, repoDescription, repolanguage);
 		ul.appendChild(li);
