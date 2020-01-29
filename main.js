@@ -20,14 +20,14 @@ const angleDown = document.querySelector(".angle_down");
 //  Functions
 
 function displayData(res) {
-	let user = res;
-	gitCard.className += " card";
-	img.src = `${user.avatar_url}`;
-	userName.innerHTML = `${user.name}`;
-	// angleDown.text = "👇";
+	// let user = res;
+	// gitCard.className += " card";
+	// img.src = `${user.avatar_url}`;
+	// userName.innerHTML = `${user.name}`;
+	// // angleDown.text = "👇";
 
-	// angleDown.addEventListener("click", () =>
-	displayUserData(user);
+	// // angleDown.addEventListener("click", () =>
+	displayUserData(res);
 	console.log(user);
 }
 function getUserData() {
