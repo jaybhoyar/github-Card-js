@@ -129,7 +129,8 @@ table {
 }
 /* Custom CSS */
 body {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", sans-serif;
 	background-color: #f3f7f9;
 }
 h1 {
@@ -222,8 +223,8 @@ img {
 	font-size: 1.5rem;
 	text-align: center;
 	padding-bottom: 15px;
-  border-bottom: 1px solid #c7c7c7;
-  margin-bottom: 15px;
+	border-bottom: 1px solid #c7c7c7;
+	margin-bottom: 15px;
 }
 .user_id {
 	color: rgb(126, 122, 122);
@@ -253,17 +254,18 @@ ul {
 li {
 	width: 40%;
 	background-color: #fff;
-	border: 1px solid #d1d5da;
-	border-radius: 3px;
+	border: 1px solid #f0f0f0;
+	border-radius: 6px;
 	padding: 20px;
 	margin: 10px;
 	display: flex;
 	flex-direction: column;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 .repo_name {
 	color: #0366d6;
 	font-size: 1.3rem;
-	padding: 10px 0;
+	padding: 8px 0;
 }
 .repo_description {
 	color: #6b6b6b;
